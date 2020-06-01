@@ -8,7 +8,7 @@ deck = [2,3,4,5,6,7,8,9,10,11,12,13,14]*4
 money = input("How much money would you like to play with? $")
  
 def play_again():
-again = input("Do you wnat to play again? [Y]es/[N]o :").lower()
+again = input("Do you want to play again? [Y]es/[N]o :").lower()
 if again == "y":
   dhand = []
   phand =[]
